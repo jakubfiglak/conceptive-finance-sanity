@@ -8,6 +8,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import mainImage from "./objects/mainImage";
 import seo from "./documents/seo";
 import hero from "./documents/hero";
+import about from "./documents/about";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,6 +21,7 @@ export default createSchema({
     // in the studio.
     seo,
     hero,
+    about,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     mainImage,

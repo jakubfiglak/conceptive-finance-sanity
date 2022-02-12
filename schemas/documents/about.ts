@@ -1,8 +1,8 @@
-import { FcCamera as icon } from "react-icons/fc";
+import { FcInfo as icon } from "react-icons/fc";
 
 export default {
-  name: "hero",
-  title: "Hero",
+  name: "about",
+  title: "About",
   type: "document",
   icon,
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"],
@@ -14,9 +14,9 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: "subtitle",
-      title: "Sub-Title",
-      type: "string",
+      name: "description",
+      title: "Description",
+      type: "text",
       validation: (Rule) => Rule.required(),
     },
     {
