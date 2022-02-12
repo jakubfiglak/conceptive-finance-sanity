@@ -9,6 +9,7 @@ import mainImage from "./objects/mainImage";
 import seo from "./documents/seo";
 import hero from "./documents/hero";
 import about from "./documents/about";
+import offerCard from "./documents/offerCard";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -22,6 +23,7 @@ export default createSchema({
     seo,
     hero,
     about,
+    offerCard,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     mainImage,
