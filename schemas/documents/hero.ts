@@ -1,8 +1,8 @@
-import { FcGoogle as icon } from "react-icons/fc";
+import { FcCamera as icon } from "react-icons/fc";
 
 export default {
-  name: "seo",
-  title: "SEO",
+  name: "hero",
+  title: "Hero",
   type: "document",
   icon,
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"],
@@ -20,11 +20,9 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: "keywords",
-      title: "Keywords",
-      type: "array",
-      of: [{ type: "string" }],
-      options: { layout: "tags" },
+      name: "image",
+      title: "Image",
+      type: "mainImage",
       validation: (Rule) => Rule.required(),
     },
   ],
