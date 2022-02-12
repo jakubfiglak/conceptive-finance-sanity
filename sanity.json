@@ -27,6 +27,10 @@
     {
       "name": "part:@sanity/desk-tool/structure",
       "path": "./deskStructure.ts"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./logo/logo.tsx"
     }
   ]
 }
