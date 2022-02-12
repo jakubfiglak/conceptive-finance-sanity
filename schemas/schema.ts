@@ -23,13 +23,13 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
+    companyInfo,
     seo,
     hero,
     about,
     offerCard,
     pricingCard,
     contact,
-    companyInfo,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     mainImage,
