@@ -1,4 +1,5 @@
 import { FcMoneyTransfer as icon } from "react-icons/fc";
+import { orderRankField } from "@sanity/orderable-document-list";
 
 export default {
   name: "pricingCard",
@@ -6,6 +7,7 @@ export default {
   type: "document",
   icon,
   fields: [
+    orderRankField({ type: "offerCard" }),
     {
       name: "title",
       title: "Title",
